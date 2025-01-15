@@ -23,6 +23,9 @@ touch ./dir2/empty
 echo '#!/bin/bash' > ./dir2/hello.sh
 echo '"$1, привет!"' >> ./dir2/hello.sh
 
+
+
+
 # устанавливаем для task/dir2/hello.sh права rwxrw-r--
 
 chmod 764 ./dir2/hello.sh
